@@ -50,7 +50,7 @@
 int main()
 {
     int count=0;
-    int n,s1[100000],s2[100000];
+    int n,s1[100],s2[100];
     scanf("%d",&n);
     for(int i=0;i<n;i++)
     scanf("%d",&s1[i]);
