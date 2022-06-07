@@ -105,39 +105,6 @@ void add(node *poly1,node *poly2)
         position->next=newnode;
         position=newnode;
     }
-    while(p1!=NULL || p2!=NULL)
-    {
-        if(p1==NULL && p2==NULL)
-        break;
-        else{
-        node *newnode=malloc(sizeof(node));
-        newnode->next=NULL;
-        /*if(p1==NULL && p2==NULL)
-        {
-            newnode->co=p1->co + p2->co;
-            newnode->pow=p1->pow;
-            position->next=newnode;
-            position=newnode;
-            break;
-        }*/
-        {
-            if(p1!=NULL)
-            {
-                newnode->co=p1->co;
-                newnode->pow=p1->pow;
-                p1=p1->next;
-            }
-            if(p2!=NULL)
-            {
-                newnode->co=p2->co;
-                newnode->pow=p2->pow;
-                p2=p2->next;
-            }
-            position->next=newnode;
-            position=newnode;
-        }
-    }
-    }
     display(ans);
 }
 
