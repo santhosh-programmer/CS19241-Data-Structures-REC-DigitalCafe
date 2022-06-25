@@ -5,6 +5,8 @@ Contains all answers for Rajalakshmi college's Digial cafe CS19241-Data Structur
 
 **Applications of Stack ADT**
 
+<img src="https://www.codesdope.com/staticroot/images/algorithm/heapsort1.gif" align="right" width="50%" height="50%">
+
 ✔[Evaluation of Postfix Expression](https://github.com/santhosh-p-official/CS19241-Data-Structures-REC-DigitalCafe/blob/main/Evaluation_of_Postfix_Expression.c)
 
 ✔[Infix to Postfix Conversion Using Stack](https://github.com/santhosh-p-official/CS19241-Data-Structures-REC-DigitalCafe/blob/main/Infix_to_Postfix_Conversion_Using_Stack.c)
